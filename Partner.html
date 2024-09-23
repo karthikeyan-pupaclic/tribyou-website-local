@@ -26,6 +26,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header
@@ -64,7 +66,9 @@
     </header>
     <section
       class="flex h-[calc(100dvh-70px)] w-full items-center justify-center bg-[url(/asset/Linebg.png)] bg-contain bg-no-repeat px-20"
-      style="background-image: url('https://karthikeyan-pupaclic.github.io/tribyou-website-local/asset/Linebg.png');"
+      style="
+        background-image: url(&quot;https://karthikeyan-pupaclic.github.io/tribyou-website-local/asset/Linebg.png&quot;);
+      "
     >
       <div class="flex w-1/2 flex-col items-start justify-start">
         <h1 class="text-6xl font-bold">Partner. Connect. Succeed.</h1>
@@ -84,7 +88,7 @@
       </div>
     </section>
     <section
-      class="relative flex h-[calc(100dvh-70px)] w-full items-start justify-center px-20"
+      class="relative flex h-[calc(100dvh-70px)] w-full items-start justify-center overflow-hidden px-20"
     >
       <div class="flex w-1/2 flex-col items-center justify-center pt-10">
         <h1 class="text-nowrap text-5xl font-medium">Channel Partner</h1>
@@ -106,16 +110,16 @@
           </button>
         </div>
       </div>
-      <div class="absolute left-0 top-0 h-64">
+      <div data-aos="fade-right" class="absolute left-0 top-0 h-64">
         <img src="asset/partner-page-image-1.png" class="h-full" alt="" />
       </div>
-      <div class="absolute right-0 top-0 h-60">
+      <div data-aos="fade-left" class="absolute right-0 top-0 h-60">
         <img src="asset/partner-page-image-2.png" class="h-full" alt="" />
       </div>
-      <div class="absolute bottom-10 left-20 h-60">
+      <div data-aos="fade-up" class="absolute bottom-10 left-20 h-60">
         <img src="asset/partner-page-image-3.png" class="h-full" alt="" />
       </div>
-      <div class="absolute bottom-10 right-[5%] h-80">
+      <div data-aos="fade-up" class="absolute bottom-10 right-[5%] h-80">
         <img src="asset/partner-page-image-4.png" class="h-full" alt="" />
       </div>
     </section>
@@ -221,8 +225,8 @@
         <img src="asset/MacBook Air (15 inch)-2.png" alt="" />
       </div>
       <div class="flex w-1/2 flex-col items-center justify-start">
-        <h1 class="text-4xl font-bold text-center">Connect with our team</h1>
-        <span class="mt-5 text-lg text-slate-500 text-center">
+        <h1 class="text-center text-4xl font-bold">Connect with our team</h1>
+        <span class="mt-5 text-center text-lg text-slate-500">
           If you are interested in Tribyou or have questions about how our
           partnership can enhance your business, schedule a meeting with us. Our
           dedicated support team will provide comprehensive guidance.</span
@@ -274,6 +278,8 @@
       </div>
     </footer>
     <script>
+      AOS.init();
+
       $("#menu-button").click(function () {
         $("#menu-content").slideToggle();
       });
