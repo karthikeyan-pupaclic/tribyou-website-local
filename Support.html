@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      class="relative flex h-[70px] flex-row items-center justify-between gap-4 py-[10px] lg:gap-0 lg:px-[60px]"
+    >
+      <img class="ps-4" src="asset/Tribyou-PrimaryLogo-White.png" alt="" />
+      <span
+        class="pe-4 text-3xl lg:hidden"
+        id="menu-button"
+        style="color: #00c69b"
+        ><i class="fa-solid fa-bars"></i
+      ></span>
+      <ul
+        class="absolute top-[70px] z-[9999] hidden w-full flex-row justify-center bg-[white] ps-5 shadow-md lg:static lg:flex lg:gap-[50px] lg:bg-white lg:ps-0 lg:shadow-none"
+        id="menu-content"
+      >
+        <li class="mt-2 text-lg" style="color: #00c69b">Home</li>
+        <li class="mt-2 text-lg">Features</li>
+        <li class="mt-2 text-lg">Reviews</li>
+        <li class="my-2 text-lg">Pricing</li>
+      </ul>
+      <div class="hidden gap-[15px] lg:flex">
+        <button
+          class="h-[40px] text-nowrap rounded-full bg-slate-50 px-6"
+          style="background-color: #26377a0f"
+        >
+          Log In
+        </button>
+        <button
+          class="h-[40px] text-nowrap rounded-full bg-slate-50 px-6"
+          style="background-color: #232525; color: #fff"
+        >
+          Sign Up
+        </button>
+      </div>
+    </header>
+    <section
+      class="relative md:mt-12 overflow-hidden bg-white bg-[url(/asset/Lines.png)] bg-cover bg-no-repeat"
+    >
+      <main
+        class="container relative z-30 mx-auto flex h-[calc(100dvh-70px)] flex-col items-center justify-center p-4 2xl:px-16"
+      >
+        <h1 class="mb-8 mt-48 md:mt-16 text-center text-3xl font-medium lg:text-5xl">
+          Hi, how can we help?
+        </h1>
+        <section
+          class="relative z-10 w-full max-w-2xl rounded-xl border border-gray-200 bg-white p-4 py-8 shadow-sm lg:p-6 lg:py-10"
+        >
+          <div class="mx-auto w-full max-w-2xl space-y-4">
+            <input
+              type="text"
+              placeholder="Search using keyword"
+              class="block min-h-11 w-full rounded-full border border-gray-200 p-4 placeholder:text-gray-300 focus:border-gray-200 focus:outline-none focus:ring-1 focus:ring-gray-200"
+            />
+            <div class="flex flex-col gap-3">
+              <p class="whitespace-nowrap text-base font-normal">
+                Export support article:
+              </p>
+              <ul
+                class="flex flex-wrap gap-3 text-white [&_li]:h-fit [&_li]:cursor-default [&_li]:whitespace-nowrap [&_li]:rounded-full [&_li]:border-none [&_li]:bg-gray-500 [&_li]:px-2.5 [&_li]:py-1.5 [&_li]:text-xs [&_li]:tracking-wider"
+              >
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="b absolute left-0 top-1/4 h-screen w-screen rounded-full">
+        <div
+          class="bg-r ed-600 relative mx-auto h-full w-full rounded-full lg:w-5/6"
+        >
+          <div
+            class="absolute -top-24 left-1/2 z-20 size-16 -translate-x-1/2 rounded-full border border-gray-300 bg-white p-0.5"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="image"
+              class="block h-full w-full rounded-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute -top-16 left-16 z-20 size-16 rounded-full border border-gray-300 bg-white p-0.5 md:-top-10 md:left-48"
+          >
+            <img
+              src="https://plus.unsplash.com/premium_photo-1661772661721-b16346fe5b0f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="image"
+              class="block h-full w-full rounded-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute left-6 top-6 z-20 size-16 rounded-full border border-gray-300 bg-white p-0.5 md:left-16 md:top-16 xl:-left-7 xl:top-32"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2VsZWJyYXRpb258ZW58MHx8MHx8fDA%3D"
+              alt="image"
+              class="block h-full w-full rounded-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute -top-16 right-16 z-20 size-16 rounded-full border border-gray-300 bg-white p-0.5 md:-top-10 md:right-48"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1486591978090-58e619d37fe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGV2ZW50fGVufDB8fDB8fHww"
+              alt="image"
+              class="block h-full w-full rounded-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute right-6 top-6 z-20 size-16 rounded-full border border-gray-300 bg-white p-0.5 md:right-16 md:top-16 xl:-right-7 xl:top-32"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1568856761019-bc47cb59d8bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1c3RyYWxpYSUyMGV2ZW50fGVufDB8fDB8fHww"
+              alt="image"
+              class="block h-full w-full rounded-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section>
+      <div class="container mx-auto mt-8 p-4 2xl:px-16">
+        <div
+          class="grid grid-cols-1 gap-4 divide-gray-300 md:grid-cols-2 lg:grid-cols-3 lg:gap-0 lg:divide-x"
+        >
+          <div
+            class="flex flex-col items-center gap-y-2 p-2 text-center xl:p-10"
+          >
+            <div class="size-12 rounded bg-gray-200"></div>
+            <h1 class="text-lg font-medium lg:text-xl">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="line-clamp-3 text-base font-normal">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              esse quos odit quo quam dolorem consequuntur tempore reiciendis
+              praesentium repellat?
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center gap-y-2 p-2 text-center xl:p-10"
+          >
+            <div class="size-12 rounded bg-gray-200"></div>
+            <h1 class="text-lg font-medium lg:text-xl">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="line-clamp-3 text-base font-normal">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              esse quos odit quo quam dolorem consequuntur tempore reiciendis
+              praesentium repellat?
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center gap-y-2 p-2 text-center xl:p-10"
+          >
+            <div class="size-12 rounded bg-gray-200"></div>
+            <h1 class="text-lg font-medium lg:text-xl">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="line-clamp-3 text-base font-normal">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              esse quos odit quo quam dolorem consequuntur tempore reiciendis
+              praesentium repellat?
+            </p>
+          </div>
+          <hr class="col-span-3 hidden border-gray-300 lg:block" />
+          <div
+            class="flex flex-col items-center gap-y-2 border-none p-2 text-center xl:p-10"
+          >
+            <div class="size-12 rounded bg-gray-200"></div>
+            <h1 class="text-lg font-medium lg:text-xl">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="line-clamp-3 text-base font-normal">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              esse quos odit quo quam dolorem consequuntur tempore reiciendis
+              praesentium repellat?
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center gap-y-2 p-2 text-center xl:p-10"
+          >
+            <div class="size-12 rounded bg-gray-200"></div>
+            <h1 class="text-lg font-medium lg:text-xl">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="line-clamp-3 text-base font-normal">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              esse quos odit quo quam dolorem consequuntur tempore reiciendis
+              praesentium repellat?
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center gap-y-2 p-2 text-center xl:p-10"
+          >
+            <div class="size-12 rounded bg-gray-200"></div>
+            <h1 class="text-lg font-medium lg:text-xl">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="line-clamp-3 text-base font-normal">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              esse quos odit quo quam dolorem consequuntur tempore reiciendis
+              praesentium repellat?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section>
+      <div class="mx-4 md:mx-16 grid md:grid-cols-2 xl:grid-cols-3">
+        <div
+          class="flex flex-col items-center gap-y-2 border-b md:border-r p-2 px-6 pb-6 text-center xl:p-10"
+        >
+          <div class="size-12 rounded bg-gray-200"></div>
+          <h1 class="text-lg font-medium lg:text-xl">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <p class="line-clamp-3 text-base font-normal">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+            esse quos odit quo quam dolorem consequuntur tempore reiciendis
+            praesentium repellat?
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-y-2 border-b p-2 px-6 pb-6 text-center xl:border-r xl:p-10"
+        >
+          <div class="size-12 rounded bg-gray-200"></div>
+          <h1 class="text-lg font-medium lg:text-xl">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <p class="line-clamp-3 text-base font-normal">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+            esse quos odit quo quam dolorem consequuntur tempore reiciendis
+            praesentium repellat?
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-y-2 border-b md:border-r p-2 px-6 pb-6 pt-6 text-center xl:border-r-0 xl:p-10"
+        >
+          <div class="size-12 rounded bg-gray-200"></div>
+          <h1 class="text-lg font-medium lg:text-xl">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <p class="line-clamp-3 text-base font-normal">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+            esse quos odit quo quam dolorem consequuntur tempore reiciendis
+            praesentium repellat?
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-y-2 border-b border-r-0 p-2 px-6 pt-6 text-center xl:border-b-0 xl:border-r xl:p-10"
+        >
+          <div class="size-12 rounded bg-gray-200"></div>
+          <h1 class="text-lg font-medium lg:text-xl">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <p class="line-clamp-3 text-base font-normal">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+            esse quos odit quo quam dolorem consequuntur tempore reiciendis
+            praesentium repellat?
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-y-2 border-b md:border-b md:border-r p-2 px-6 pt-6 text-center xl:p-10"
+        >
+          <div class="size-12 rounded bg-gray-200"></div>
+          <h1 class="text-lg font-medium lg:text-xl">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <p class="line-clamp-3 text-base font-normal">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+            esse quos odit quo quam dolorem consequuntur tempore reiciendis
+            praesentium repellat?
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-y-2 p-2 px-6 pt-6 text-center xl:p-10"
+        >
+          <div class="size-12 rounded bg-gray-200"></div>
+          <h1 class="text-lg font-medium lg:text-xl">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <p class="line-clamp-3 text-base font-normal">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+            esse quos odit quo quam dolorem consequuntur tempore reiciendis
+            praesentium repellat?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mx-auto mt-8 p-4 2xl:px-16">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-xl border border-gray-100 bg-white p-4 shadow-sm">
+            <div class="mb-4 flex items-center gap-x-4">
+              <div
+                class="bg-primary flex size-12 items-center justify-center rounded-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  class="size-6"
+                >
+                  <path
+                    d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"
+                  />
+                  <path
+                    d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"
+                  />
+                </svg>
+              </div>
+              <p class="text-base font-medium">Email</p>
+            </div>
+            <p class="text-base font-normal underline underline-offset-2">
+              support@tribyou.com
+            </p>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-white p-4 shadow-sm">
+            <div class="mb-4 flex items-center gap-x-4">
+              <div
+                class="bg-primary flex size-12 items-center justify-center rounded-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  class="size-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <p class="text-base font-medium">Phone</p>
+            </div>
+            <p class="text-base font-normal">555-1011-111</p>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-white p-4 shadow-sm">
+            <div class="mb-4 flex items-center gap-x-4">
+              <div
+                class="bg-primary flex size-12 items-center justify-center rounded-lg"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  class="size-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <p class="text-base font-medium">HQ Office</p>
+            </div>
+            <p class="text-base font-normal">
+              123, Maple street, springfield queensland 4000, Australia
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-20" />
+    <footer
+      class="flex flex-col items-center justify-between gap-4 px-[60px] py-[30px] lg:gap-[70px]"
+    >
+      <div
+        class="flex w-full flex-col items-center justify-between gap-2 lg:flex-row"
+      >
+        <img src="asset/Tribyou-PrimaryLogo-White.png" alt="" />
+        <ul class="flex gap-5 lg:gap-[50px]">
+          <li class="text-lg" style="color: #232525">Home</li>
+          <li class="text-lg" style="color: #232525">Features</li>
+          <li class="text-lg" style="color: #232525">Reviews</li>
+          <li class="text-lg" style="color: #232525">Pricing</li>
+        </ul>
+        <div class="flex gap-[15px]">
+          <span class="text-4xl"><i class="fa-brands fa-instagram"></i></span>
+          <span class="text-4xl"><i class="fa-brands fa-youtube"></i></span>
+          <span class="text-4xl"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></span>
+        </div>
+      </div>
+      <div
+        class="flex w-full flex-col items-center justify-between lg:flex-row"
+      >
+        <ul
+          class="flex flex-wrap justify-center gap-5 gap-y-0 lg:flex-nowrap lg:gap-[50px]"
+        >
+          <li class="text-lg" style="color: #6e6e6e">Faqs</li>
+          <li class="text-lg" style="color: #6e6e6e">Terms</li>
+          <li class="text-lg" style="color: #6e6e6e">Privacy</li>
+          <li class="text-lg" style="color: #6e6e6e">© 2024 tribyouapp.com</li>
+        </ul>
+        <span
+          >Contact Us
+          <span style="color: #00a17f">info@tribyouapp.com</span></span
+        >
+      </div>
+    </footer>
+    <script>
+      $("#menu-button").click(function () {
+        $("#menu-content").slideToggle();
+      });
+    </script>
+  </body>
+</html>
